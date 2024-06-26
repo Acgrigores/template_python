@@ -13,7 +13,7 @@ from sklearn.datasets import load_sample_image
 from sklearn.metrics import pairwise_distances_argmin
 from sklearn.utils import shuffle
 
-n_colors = 6
+n_colors = 5
 filename = "uber.jpg"
 # Load the photo
 image = np.array(Image.open(filename))
