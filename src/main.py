@@ -13,9 +13,9 @@ from sklearn.datasets import load_sample_image
 from sklearn.metrics import pairwise_distances_argmin
 from sklearn.utils import shuffle
 
-n_colors = 4
+n_colors = 6
 filename = "uber.jpg"
-# Load the Summer Palace photo
+# Load the photo
 image = np.array(Image.open(filename))
 
 # Convert to floats instead of the default 8 bits integer coding. Dividing by
